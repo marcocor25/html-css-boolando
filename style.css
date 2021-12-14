@@ -4,3 +4,58 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+.main-container {
+    width: 1920px;
+    height: 1644px;
+    margin: auto;
+    margin-top: 50px;
+    background: orangered;
+}
+
+.card-container {
+    text-align: center;
+}
+
+.card {
+    width: 480px;
+    height: 769px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    background: white;
+}
+
+.image-box, .description-box {
+    margin: auto;
+}
+
+.image-box {
+    width: 448px;
+    height: 669px;
+    margin-top: 15px;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.hover-img {
+    display: none;
+}
+
+.image-box:hover .hover-img {
+    display: initial;
+}
+
+.image-box:hover .standard-img {
+    display: none;
+}
+
+.description-box {
+    width: 448px;
+    height: 63px;
+    margin-top: 10px;
+    background: blue;
+}
