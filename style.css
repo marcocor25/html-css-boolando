@@ -13,7 +13,7 @@
     margin-top: 50px;
 }
 
-.card-container {
+.cards-container {
     text-align: center;
 }
 
@@ -22,8 +22,8 @@
     height: 769px;
     margin-left: 10px;
     margin-bottom: 20px;
-    display: inline-block;
     background: white;
+    display: inline-block;
 }
 
 .image-box, .description-box {
@@ -35,6 +35,23 @@
     height: 669px;
     margin-top: 15px;
     position: relative;
+}
+
+.image-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.hover-img {
+    display: none;
+}
+
+.image-box:hover .hover-img {
+    display: initial;
+}
+
+.image-box:hover .standard-img {
+    display: none;
 }
 
 .heart {
@@ -56,21 +73,34 @@ a:hover {
     color: red;
 }
 
-.image-box img {
-    width: 100%;
-    height: 100%;
+.sticker {
+    width: 152px;
+    height: 44px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
 }
 
-.hover-img {
-    display: none;
+#sticker-1, #sticker-2 {
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    display: inline-block;
 }
 
-.image-box:hover .hover-img {
-    display: initial;
+#sticker-1 {
+    background: red;
 }
 
-.image-box:hover .standard-img {
-    display: none;
+#sticker-2 {
+    background: green;
+}
+
+.left-sticker {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
 }
 
 .description-box {
