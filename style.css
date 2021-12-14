@@ -34,6 +34,26 @@
     width: 448px;
     height: 669px;
     margin-top: 15px;
+    position: relative;
+}
+
+.heart {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background: white;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.heart a {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
 }
 
 .image-box img {
@@ -70,3 +90,5 @@
     text-decoration: line-through;
     color: black;
 }
+
+/* Fine */
